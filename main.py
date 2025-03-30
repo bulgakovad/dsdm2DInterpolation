@@ -25,7 +25,7 @@ def main():
         except ValueError as e:
             print(f"Error: {e}")
     else:
-        print("Invalid action. Choose 'calc' or 'plot'.")
+        print("Invalid action. Choose 'calc' or 'plot'")
 
 if __name__ == "__main__":
     main()
