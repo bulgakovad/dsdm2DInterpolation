@@ -1,0 +1,26 @@
+
+       definitions of the proccesses and spectator of pipiN 
+
+                         pi +N->  1  +  2  + 3
+       process m= 1      pip+p-> pip + pip + n 
+       process m= 2      pip+p-> pip + pi0 + p
+       process m= 3      pim+p-> pip + pim + n
+       process m= 4      pim+p-> pi0 + pi0 + n
+       process m= 5      pim+p-> pi- + pi0 + p  
+ 
+      output of read-all.f:
+      dsdm-2016-ispn-icm.out
+
+      dsdm for the process(ic)=m and spectator(isp)=n:
+
+
+      format:  isp W(GeV), M_{cd}(GeV), ds/dm (mb/MeV) 
+
+      isp W M full piDonly rhoNonly sigNonly Tdironly
+      
+
+      full: full calculation
+      piDonly: keep only piD 
+      rhoNonly: keep only rhoN
+      sigNonly: keep only sigN
+      Tddironly: keep only Tdir
